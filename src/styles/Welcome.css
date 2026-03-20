@@ -18,7 +18,8 @@
 main {
   height: 100%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #hero {
@@ -30,8 +31,11 @@ main {
 }
 
 h1 {
-  font-size: 22px;
+  font-size: 100px;
   margin-top: 0.25em;
+  font-family: "Gravitas One", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 #links {
