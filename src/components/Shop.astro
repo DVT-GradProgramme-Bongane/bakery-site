@@ -1,7 +1,17 @@
 ---
 import background from "../assets/bakery-background.jpg";
+import bestsellingBakery from "../assets/best-selling-bakery-img.jpg"
+import brownies from "../assets/brownies.jpg"
+import "../styles/Shop.css"
 ---
 
 <div id="container">
   <img id="background" src={background.src} alt="" fetchpriority="high" />
+  <section id="pictures-section">
+        <div id="bakery-store-image-container">
+          
+          <img src={bestsellingBakery.src} alt=""/>
+          <img src={brownies.src} alt=""/>
+        </div>
+      </section>
 </div>

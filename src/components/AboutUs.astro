@@ -1,6 +1,8 @@
 ---
 import background from "../assets/bakery-background.jpg";
-import "../styles/Welcome.css";
+import bakeryStore from "../assets/bakery-store.jpg";
+import bakeryStoreOutside from "../assets/bakery-store-outside.jpg"
+import "../styles/About.css"
 ---
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -33,6 +35,13 @@ import "../styles/Welcome.css";
            Every loaf, every pastry, and every cake tells a part of our story—a story of passion, perseverance, and a 
            genuine love for bringing people together through food.`}
       </p>
+      <section id="pictures-section">
+
+        <div id="bakery-store-image-container">
+          <img src={bakeryStore.src} alt=""/>
+          <img src={bakeryStoreOutside.src} alt=""/>
+        </div>
+      </section>
     </section>
     
   </main>
